@@ -3,6 +3,9 @@ class View {
   }
   
   setupBoard() {
+    let ele = document.createElement("li");
+    ele.innerText = "X";
+    this.append(ele);
   }
   
   handleClick(e) {
