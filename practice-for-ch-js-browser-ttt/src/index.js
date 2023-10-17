@@ -5,6 +5,5 @@ document.addEventListener("DOMContentLoaded", () => {
   let figure = document.querySelector("figure");
 
   let game = new Game();
-  let view = new View();
-  view.setupBoard(figure);
+  let view = new View(game,figure);
 });
