@@ -6,5 +6,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let game = new Game();
   let view = new View();
-  figure.setupBoard();
+  view.setupBoard(figure);
 });
